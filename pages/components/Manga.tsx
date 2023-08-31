@@ -31,16 +31,16 @@ const Manga = () => {
           </div>
     </div>
        
-          <div className='bg-gray-800 rounded-lg p-4 ml-8 mt-2 w-fit float-left' id='child'>
+          <div className='bg-gray-800 rounded-lg p-7 ml-8 mt-2 w-fit float-left' id='child'>
             <h4 className='text-green-400 text-center '>$MANGA Burn</h4>
             <p className='text-white w-80 pt-2 text-justify pb-3'>The tokens utilized for NFT minting will be systematically burned during our monthly Burn Event</p>
           </div>
 
-          <div className='bg-gray-800 rounded-lg p-4 pb-2 ml-8 mt-2 w-fit float-left' id='child'>
+          <div className='bg-gray-800 rounded-lg p-7 pb-2 ml-8 mt-2 w-fit float-left' id='child'>
             <h4 className='text-green-400 text-center '>Minting NFTs</h4>
             <p className='text-white w-96 pt-2 text-justify'>Use Manga Tokens to mint exclusive Manga NFTs, securing your ownership of anime art on the blockchain.</p>
             <div className='border-1 h-7 border-purple-500 rounded-full inline-block mb-2 mr-2   float-left'></div>
-            <a className='text-white' href="/">Mint Now</a>
+            <a className='text-white m-auto w-fit' href="/">Mint Now</a>
           </div>              
 </div>
 
