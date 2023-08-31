@@ -25,7 +25,7 @@ const Manga = () => {
           </div>
             
 
-          <div className='bg-gray-800 rounded-lg p-4 sm:ml-72 ml-56 w-fit'  id='child'>
+          <div className='bg-gray-800 rounded-lg p-4 sm:ml-72 ml-56 w-fit sm:w-[64%]'  id='child'>
             <h4 className='text-green-400 text-center'>Governance</h4>
             <p className='text-white pt-2 sm:text-base text-xs sm:w-full w-44 text-justify '>Governance proposals, ranging from feature enhancements to ecosystem expansion, are subject to voting by MANGA token holders, ensuring a decentralized and community-driven approach to platform evolution.</p>             
           </div>
@@ -39,8 +39,9 @@ const Manga = () => {
           <div className='bg-gray-800 rounded-lg p-4 pr-4 pl-4 pb-2 ml-8 mt-2 w-fit float-left' id='child'>
             <h4 className='text-green-400 text-center '>Minting NFTs</h4>
             <p className='text-white w-96 pt-2 text-justify'>Use Manga Tokens to mint exclusive Manga NFTs, securing your ownership of anime art on the blockchain.</p>
+            <div className='w-fit sm:m-auto '>
             <div className='border-1 h-7 border-purple-500 rounded-full inline-block mb-2 mr-2   float-left'></div>
-            <a className='text-white m-auto w-fit' href="/">Mint Now</a>
+            <a className='text-white sm:w-fit' href="/">Mint Now</a></div>
           </div>              
 </div>
 
