@@ -123,6 +123,7 @@ nav .menu span {
     width: 100%;
     background-color: #fff;
     border-radius: 0.2rem;
+    
 }
 
 
@@ -179,4 +180,13 @@ nav .menu span {
     height: auto;
     margin-bottom: 20px;
   }
+  p{
+    font-weight: 500;
+  }
+  button{
+    font-weight: 500;
+  }
+a{
+    font-weight: 700;
+}
   

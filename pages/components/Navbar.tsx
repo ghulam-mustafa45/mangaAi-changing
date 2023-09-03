@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
    
     <>
-       <div className=' '>
+       <div className='font-Lato font-custom7'>
           <nav className="navbar navbar-inverse shadow-md shadow-[#524656] bg-main-gray">
             <div className="container-fluid text-white">
 
@@ -14,7 +14,7 @@ const Navbar = () => {
                 <a className="navbar-brand" href="/"><img src="./images/navp1.svg" alt="error" /></a>
               </div>
               
-        <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+        <div className="menu mt-3" onClick={() => setMenuOpen(!menuOpen)}>
             <span></span>
             <span></span>
             <span></span>

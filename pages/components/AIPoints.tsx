@@ -3,11 +3,11 @@ import React from 'react'
 const AIPoints = () => {
   return (
     
-<div className='bg-main-gray pb-36 hidden sm:block'>
+<div className='bg-main-gray pb-36 hidden lg:block font-Lato'>
         <h1 className=' w-fit m-auto pt-[20%]' >
             <span
             className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text 'containor'>
-            <div className='bg-gray-800 rounded-lg sm:w-1/3 pl-5 justify-center relative z-10"
+            <div className='bg-gray-800 rounded-lg lg:w-1/3 pl-5 justify-center relative z-10 font-custom9"
             style={{ backgroundImage: 'linear-gradient(to right, #8F41B4, #7D98A6, #50C355)',}}>Manga AI Points
             </span>
         </h1>
@@ -18,7 +18,7 @@ const AIPoints = () => {
 
           <div className='mt-[-45%] relative top-0   flex left-0 w-full h-full items-center justify-center pb-24 ' id='containor'>
                 <div className='bg-gray-800 rounded-lg  pl-5 justify-center relative z-10 w-fit p-4 '>
-                    <h1 className='text-green-500 justify-center sm:text-lg text-lg w-36 m-auto text-center pb-4'>
+                    <h1 className='text-[#88C48A] font-custom8  justify-center lg:text-lg text-lg w-36 m-auto text-center pb-4'>
                     How it Works
                     </h1>
                     <p className='text-white w-64 m-auto text-justify pb-5'>
@@ -27,7 +27,7 @@ const AIPoints = () => {
                 </div>
 
                 <div className='bg-gray-800 rounded-lg  pl-5 justify-center float-left  ml-5 relative z-10 w-fit p-4'>
-                    <h1 className='text-green-500 justify-center sm:text-lg text-lg w-36 m-auto text-center pb-4'>
+                    <h1 className='text-[#88C48A] font-custom8  justify-center lg:text-lg text-lg w-36 m-auto text-center pb-4'>
                     gems of Potential
                     </h1>
                     <p className='text-white w-64 m-auto text-justify pb-5'>
@@ -36,7 +36,7 @@ const AIPoints = () => {
                 </div>
 
                 <div className='bg-gray-800 rounded-lg  pl-5 justify-center ml-5 relative z-10 w-fit p-4'>
-                    <h1 className='text-green-500 justify-center sm:text-lg text-lg w-40 m-auto text-center pb-4'>
+                    <h1 className='text-[#88C48A] font-custom8  justify-center lg:text-lg text-lg w-40 m-auto text-center pb-4'>
                     Your Dedication Rewarded
                     </h1>
                     <p className='text-white w-64 m-auto text-justify pb-5'>
